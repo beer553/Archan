@@ -1,0 +1,120 @@
+/* General Body Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #E3F2FD; /* Light Blue */
+    text-align: center;
+}
+
+/* Navigation Bar */
+nav {
+    background-color: #1F2937; /* Blue */
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px 15px;
+    transition: 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: #1565C0;
+    border-radius: 5px;
+}
+
+/* Section and Content Styles */
+.home {
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    display: inline-block;
+    text-align: left;
+    justify-content: space-between;
+    justify-items: center;
+    display: flex;
+}
+.about {
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    display: inline-block;
+    text-align: left;
+    width: 50%;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    margin-top: 50px;
+}
+footer {
+    background-color: #1F2937;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Heading and Paragraph Styling */
+h1, h2 {
+    color: #1565C0;
+}
+
+p {
+    font-size: 16px;
+    color: #333;
+    margin: 5px 0;
+}
+
+/* Profile Image and Button Styles */
+img {
+    margin-top: 20px;
+    border-radius: 10px;
+    border: 3px solid #1565C0;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #1565C0;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background-color: #0D47A1;
+}
+/* ทำให้ลิงก์ของหน้าปัจจุบันดูแตกต่าง */
+nav ul li a.active {
+    background-color: #1565C0;  /* สีพื้นหลัง */
+    color: white; /* สีตัวอักษร (สีทอง) */
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+
